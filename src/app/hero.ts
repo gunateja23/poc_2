@@ -3,5 +3,6 @@ export interface hero {
     name:string,
     age:number,
     salary:number,
-    company:string
+    company:string,
+    address:string
 }
