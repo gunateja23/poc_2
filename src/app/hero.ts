@@ -2,5 +2,6 @@ export interface hero {
     id :number,
     name:string,
     age:number,
-    salary:number
+    salary:number,
+    company:string
 }
