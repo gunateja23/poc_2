@@ -14,7 +14,8 @@ export class HerosComponent {
   age:24,
   salary:40000,
   company:"Accenture",
-   address:"vijayawada"
+  address:"vijayawada"
 
  }
+ 
 }

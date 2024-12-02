@@ -1,6 +1,12 @@
-<p>heros works {{Hero.name}} with id {{Hero.id}}</p>
+<p>heros works {{hero.name}} with id {{hero.id}} in {{hero.company}}</p>
+<!-- <p> {{hero.name}} age is {{hero.age}}</p>
+<p>heros works {{hero.name}} with salary {{hero.salary}}</p> -->
 
 <div>
     <label for="name">Hero name: </label>
-    <input id="name" [(ngModel)]="Hero.name" placeholder="name">
+    <input id="age" [(ngModel)]="hero.age" placeholder="age">
+    <input id="salary" [(ngModel)]="hero.salary" placeholder="salary">
+    <input id="name" [(ngModel)]="hero.name" placeholder="name">
+    <input id="company" [(ngModel)]="hero.company" placeholder="company">
+
   </div>
