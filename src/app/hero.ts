@@ -1,4 +1,5 @@
 export interface hero {
     id :number,
-    name:string
+    name:string,
+    age:number
 }

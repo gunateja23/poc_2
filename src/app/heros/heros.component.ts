@@ -10,7 +10,8 @@ import { hero } from '../hero';
 export class HerosComponent {
  Hero: hero= {
   id :1,
-  name :"guna"
+  name :"guna",
+  age:24
 
  }
 }
