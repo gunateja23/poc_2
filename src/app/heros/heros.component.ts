@@ -8,9 +8,11 @@ import { hero } from '../hero';
   styleUrl: './heros.component.css'
 })
 export class HerosComponent {
- Hero: hero= {
+ hero: hero= {
   id :1,
-  name :"guna"
+  name :"guna",
+  age:24,
+  salary:40000
 
  }
 }
