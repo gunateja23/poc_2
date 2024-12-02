@@ -13,7 +13,8 @@ export class HerosComponent {
   name :"guna",
   age:24,
   salary:40000,
-  company:"Accenture"
+  company:"Accenture",
+   address:"vijayawada"
 
  }
 }
