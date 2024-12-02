@@ -12,7 +12,8 @@ export class HerosComponent {
   id :1,
   name :"guna",
   age:24,
-  salary:40000
+  salary:40000,
+  company:"Accenture"
 
  }
 }
